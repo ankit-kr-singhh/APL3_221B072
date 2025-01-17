@@ -1,0 +1,9 @@
+both non static ----->  child class method gets called since it points to child class
+
+mother class method is only static ------> error: Cannot override
+
+
+child class method is only static --------> error: Cannot override
+
+
+both class methods are static ---------> mother class method gets called
